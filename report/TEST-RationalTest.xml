@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Nattapons-MacBook-Air.local" name="RationalTest" skipped="0" tests="7" time="0.062" timestamp="2022-09-12T05:12:36">
+  <properties>
+    <property name="gopherProxySet" value="false" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="ant.library.dir" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.specification.version" value="11" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="java.class.path" value="/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.base:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.compiler:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.datatransfer:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.desktop:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.instrument:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.logging:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.management:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.management.rmi:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.naming:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.net.http:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.prefs:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.rmi:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.scripting:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.se:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.security.jgss:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.security.sasl:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.smartcardio:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.sql:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.sql.rowset:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.transaction.xa:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.xml:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/java.xml.crypto:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.accessibility:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.aot:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.attach:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.charsets:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.compiler:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.crypto.cryptoki:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.crypto.ec:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.dynalink:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.editpad:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.hotspot.agent:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.httpserver:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.ed:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.jvmstat:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.le:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.opt:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.vm.ci:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.vm.compiler:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.internal.vm.compiler.management:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jartool:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.javadoc:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jcmd:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jconsole:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jdeps:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jdi:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jdwp.agent:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jfr:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jlink:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jshell:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jsobject:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.jstatd:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.localedata:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.management:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.management.agent:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.management.jfr:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.naming.dns:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.naming.ldap:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.naming.rmi:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.net:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.pack:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.rmic:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.scripting.nashorn:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.scripting.nashorn.shell:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.sctp:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.security.auth:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.security.jgss:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.unsupported:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.unsupported.desktop:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.xml.dom:/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home!/jdk.zipfs:/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar:/Applications/IntelliJ IDEA CE.app/Contents/lib/idea_rt.jar" />
+    <property name="java.vm.vendor" value="Amazon.com Inc." />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="java.vendor.url" value="https://aws.amazon.com/corretto/" />
+    <property name="user.timezone" value="" />
+    <property name="java.vm.specification.version" value="11" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="user.country" value="TH" />
+    <property name="sun.boot.library.path" value="/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home/lib" />
+    <property name="sun.java.command" value="com.intellij.rt.ant.execution.AntMain2 -logger com.intellij.rt.ant.execution.IdeaAntLogger2 -inputhandler com.intellij.rt.ant.execution.IdeaInputHandler -buildfile /Users/ntaopn/Desktop/Uni/QA/Rational/build.xml test" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="jdk.debug" value="release" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="user.home" value="/Users/ntaopn" />
+    <property name="user.language" value="en" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="java.version.date" value="2022-08-12" />
+    <property name="java.home" value="/Users/ntaopn/Library/Java/JavaVirtualMachines/corretto-11.0.16.1/Contents/Home" />
+    <property name="basedir" value="/Users/ntaopn/Desktop/Uni/QA/Rational" />
+    <property name="file.separator" value="/" />
+    <property name="java.vm.compressedOopsMode" value="Zero based" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="ant.java.version" value="11" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.runtime.version" value="11.0.16.1+9-LTS" />
+    <property name="user.name" value="ntaopn" />
+    <property name="ant.file" value="/Users/ntaopn/Desktop/Uni/QA/Rational/build.xml" />
+    <property name="path.separator" value=":" />
+    <property name="os.version" value="12.5" />
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM" />
+    <property name="java.vendor.version" value="Corretto-11.0.16.9.1" />
+    <property name="ant.core.lib" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant/lib/ant.jar" />
+    <property name="java.vendor.url.bug" value="https://github.com/corretto/corretto-11/issues/" />
+    <property name="java.io.tmpdir" value="/var/folders/kv/vsdr3w_92wq1l667_2mzzdkm0000gn/T/" />
+    <property name="java.version" value="11.0.16.1" />
+    <property name="user.dir" value="/Users/ntaopn/Desktop/Uni/QA/Rational" />
+    <property name="os.arch" value="x86_64" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="ant.home" value="/Applications/IntelliJ IDEA CE.app/Contents/lib/ant" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.10.5 compiled on July 10 2018" />
+    <property name="java.library.path" value="/Users/ntaopn/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor" value="Amazon.com Inc." />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="java.vm.version" value="11.0.16.1+9-LTS" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="java.class.version" value="55.0" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+  </properties>
+  <testcase classname="RationalTest" name="testAdd" time="0.001" />
+  <testcase classname="RationalTest" name="testSubtract" time="0.0" />
+  <testcase classname="RationalTest" name="testToString" time="0.0" />
+  <testcase classname="RationalTest" name="testCompareTo" time="0.0" />
+  <testcase classname="RationalTest" name="testDivide" time="0.0" />
+  <testcase classname="RationalTest" name="testEquals" time="0.0" />
+  <testcase classname="RationalTest" name="testMultiply" time="0.0" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
